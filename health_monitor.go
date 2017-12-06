@@ -1,5 +1,7 @@
 package go_health_monitor
 
+//go:generate enumer -type=HealthStatus -json status
+
 import (
 	"sort"
 
