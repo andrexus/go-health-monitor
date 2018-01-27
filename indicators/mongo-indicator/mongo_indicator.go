@@ -1,13 +1,12 @@
 package mongo_indicator
 
 import (
-	"time"
-
 	"log"
+	"time"
 
 	monitor "github.com/andrexus/go-health-monitor"
 	"github.com/andrexus/go-health-monitor/status"
-	"gopkg.in/mgo.v2"
+	"github.com/globalsign/mgo"
 )
 
 const (
